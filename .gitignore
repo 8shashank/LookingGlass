@@ -45,6 +45,7 @@ Thumbs.db
 
 # generated files
 bin/
+build/
 gen/
 
 # Local configuration file (sdk path, etc)
