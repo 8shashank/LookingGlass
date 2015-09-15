@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import me.sharmashashank.lookingglass.R;
 import me.sharmashashank.lookingglass.common.Options;
-import me.sharmashashank.lookingglass.model.InstagramManager;
+import me.sharmashashank.lookingglass.controller.InstagramManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initializeSettings();
-        manager=new InstagramManager(Options.getClientID());
+        manager=new InstagramManager(Options.ClientID());
     }
 
     private void initializeSettings() {

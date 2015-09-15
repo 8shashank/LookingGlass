@@ -12,6 +12,7 @@ public class Options {
 
     private static String ClientID="";
     private static String clientIdName="Instagram_Client_ID";
+    private static String apiLink="https://api.instagram.com/v1/tags/#SEARCHTAG#/media/recent?client_id=";
 
     public static Options instance() {
         if (mUniqueInstance == null)
@@ -38,8 +39,12 @@ public class Options {
         }
     }
 
-    public static String getClientID(){
+    public static String ClientID(){
         return ClientID;
+    }
+
+    public static String ApiLink(String searchTag){
+        return apiLink.replace("#SEARCHTAG", searchTag)+ClientID;
     }
 
     private Options(){
