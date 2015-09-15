@@ -1,1 +1,2 @@
 # LookingGlass
+LookingGlass is an application that pulls  videos from Instagram to create a continuous stream of videos based on a certain tag or location. Get a live stream of videos tagged 'timelapse' or put in the name of a country to get a window into the lives of people living there, or simply follow an event happening in real time. Ideal for leaving it running on an extra tablet or other Android device.
